@@ -1,0 +1,95 @@
+.hero_section{
+    background: var(--hero-bg);
+    margin-left:80px;
+    margin-right:80px;
+    padding:80px;
+}
+.hero_content h2{
+    color:var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin:20px 0px;
+    font-family: 'Righteous', cursive;
+}
+.hero_content p{
+    color:var(--primary-color);
+    line-height: 28px;
+    font-family: 'Righteous', cursive;
+}
+.buy_btn{
+border:none;
+    outline: none;
+    padding:8px 20px;
+    border-radius: 5px;
+    background: var(--primary-color);
+    color:#fff;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Secular One', sans-serif;
+}
+.buy_btn a:hover{
+    color:#fff;
+}
+.hero_content {
+padding:40px;
+}
+.hero_img{
+    width: 80%;
+    height: 50%;
+}
+
+/*timercounter work*/
+
+.timer_count{
+    background: var(--primary-color);
+    height: 300px;
+}
+
+.timer_count img{
+    width: 70% !important;
+    height: 70% !important;
+    object-fit: contain;
+}
+
+.store_btn{
+    background: #fff;
+    color:var(--primary-color);
+    font-weight: 600;
+}
+.store_btn a:hover{
+    color:var(--primary-color);
+}
+
+@media (min-width: 577px) and (max-width: 768px){
+    .hero_content h2{
+        font-size: 2rem ;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px){
+    .hero_content h2{
+        font-size: 0.9rem ;
+    }
+    .hero_content p{
+        font-size: 0.9rem;
+    }
+    .buy_btn{
+        font-size: 0.9rem;
+    }
+    .timer_count{
+        background: var(--primary-color);
+        height: 300px;
+        position: relative;
+    }
+
+    .timer_count img{
+        width: 50% !important;
+        height: 50% !important;
+        object-fit: contain;
+        position: absolute;
+        top:63px;
+        right: 0;
+        padding:10px;
+
+    }
+}
